@@ -51,7 +51,7 @@ puts(colosseum.gladiators) # => []
 ```ruby
 max = Gladiator.new("Maximus","Trident")
 colosseum = Arena.new("Colosseum")
-colosseum.addGladiator(max)
+colosseum.add_gladiator(max)
 puts(colosseum.gladiators) # => [Gladiator]
 ```
 
@@ -62,9 +62,9 @@ max = Gladiator.new("Maximus","Trident")
 titus = Gladiator.new("Titus","Club")
 andronicus = Gladiator.new("Andronicus","Spear")
 colosseum = Arena.new("Colosseum")
-colosseum.addGladiator(max)
-colosseum.addGladiator(titus)
-colosseum.addGladiator(andronicus)
+colosseum.add_gladiator(max)
+colosseum.add_gladiator(titus)
+colosseum.add_gladiator(andronicus)
 puts(colosseum.gladiators.length) # => 2
 ```
 
@@ -80,8 +80,8 @@ Winning conditions
 max = Gladiator.new("Maximus","Trident")
 titus = Gladiator.new("Titus","Spear")
 colosseum = Arena.new("Colosseum")
-colosseum.addGladiator(max)
-colosseum.addGladiator(titus)
+colosseum.add_gladiator(max)
+colosseum.add_gladiator(titus)
 colosseum.fight()
 puts(colosseum.gladiators) # => [max]
 ```
