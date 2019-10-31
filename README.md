@@ -20,7 +20,7 @@ puts(max.name) # "Maximus"
 puts(max.weapon) # "Trident"
 ```
 
-### Bonus
+### Part 1 Bonus
 
 Make it so that you cannot assign a Gladiator an invalid weapon (i.e., anything aside from Spear, Club or Trident. That means running code like `Gladiator.new("Jesse", "Taco")` would throw an error
 
@@ -89,7 +89,7 @@ colosseum.fight()
 puts(colosseum.gladiators) # => [max]
 ```
 
-### Bonus
+### Part 2 Bonus
 
 * Add a method to remove gladiators from the arena by name
 * Update your winning conditions so that if the gladiator named "Maximus" is in the fight, he wins.
