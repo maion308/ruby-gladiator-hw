@@ -4,6 +4,8 @@ The Emperor has commissioned you to build a Gladiator Arena. You will do so usin
 
 You can run your code by using `ruby script.rb` and interacting with the console.
 
+![](https://66.media.tumblr.com/1d178e7a0066861be7f16a283bd44c4d/tumblr_o5q7eaQA7a1tkodheo2_500.gifv)
+
 ## Part 1: The Gladiator
 
 Create a `Gladiator` class that has the following properties...
@@ -21,6 +23,7 @@ puts(max.weapon) # "Trident"
 ### Bonus
 
 Make it so that you cannot assign a Gladiator an invalid weapon (i.e., anything aside from Spear, Club or Trident. That means running code like `Gladiator.new("Jesse", "Taco")` would throw an error
+
 
 ## Part 2: The Arena
 
