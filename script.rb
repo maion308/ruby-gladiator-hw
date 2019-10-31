@@ -1,4 +1,9 @@
 class Arena
+    attr_accessor :name
+    def initialize(name)
+        @name = name.capitalize
+    end
+    
 end
 
 class Gladiator
@@ -13,3 +18,6 @@ end
 max = Gladiator.new("Maximus", "Trident")
 puts(max.name)
 puts(max.weapon)
+
+colosseum = Arena.new("Collosseum")
+puts(colosseum.name)
